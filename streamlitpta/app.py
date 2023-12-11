@@ -2,7 +2,7 @@ import streamlit as st
 
 import pandas as pd
 # from sklearn.model_selection import GridSearchCV
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 with st.sidebar:
     selected = option_menu(
         menu_title="Main Menu",
